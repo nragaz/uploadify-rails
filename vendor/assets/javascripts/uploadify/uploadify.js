@@ -30,13 +30,16 @@ if(jQuery)(
 				jQuery(this).each(function(){
 					var settings = jQuery.extend({
 					id              : jQuery(this).attr('id'), // The ID of the object being Uploadified
-					uploader        : 'uploadify.swf', // The path to the uploadify swf file
+//					uploader        : 'uploadify.swf', // The path to the uploadify swf file
+					uploader        : '/assets/uploadify/uploadify.swf', 
 					script          : 'uploadify.php', // The path to the uploadify backend upload script
-					expressInstall  : null, // The path to the express install swf file
+//					expressInstall  : null, // The path to the express install swf file
+					expressInstall: '/assets/uploadify/expressInstall.swf',
 					folder          : '', // The path to the upload folder
 					height          : 30, // The height of the flash button
 					width           : 120, // The width of the flash button
-					cancelImg       : 'cancel.png', // The path to the cancel image for the default file queue item container
+//					cancelImg       : 'cancel.png', // The path to the cancel image for the default file queue item container
+          cancelImg       : '/assets/uploadify/cancel.png',
 					wmode           : 'opaque', // The wmode of the flash file
 					scriptAccess    : 'sameDomain', // Set to "always" to allow script access across domains
 					fileDataName    : 'Filedata', // The name of the file collection object in the backend upload script
