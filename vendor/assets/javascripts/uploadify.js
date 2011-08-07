@@ -1,2 +1,2 @@
-//= require "uploadify/swfobject"
-//= require "uploadify/uploadify"
+//= require "./uploadify/swfobject"
+//= require "./uploadify/uploadify"
